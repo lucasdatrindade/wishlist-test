@@ -8,8 +8,6 @@ import java.util.List;
 
 @Repository
 public interface WishListRepository extends MongoRepository<WishList, Integer> {
-
-    //Method for fetching the wishlist of a particular user and order it by created_date
     List<WishList> findAllByUserId(Integer id);
 
 }

@@ -1,9 +1,6 @@
 package com.wishlisttest.controller;
 
-import org.springframework.http.HttpStatusCode;
-
 import java.time.LocalDateTime;
-import java.time.LocalTime;
 
 public class ApiResponse {
     private final boolean success;
